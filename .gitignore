@@ -1,0 +1,14 @@
+# Logs
+logs
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+.serverless/
+.webpack/
+
+# Lockfiles
+package-lock.json
+yarn.lock
+deploy

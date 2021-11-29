@@ -1,0 +1,23 @@
+{
+  "name": "sigaa-auth-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/Joao-VictorF/sigaa-auth-api",
+  "author": "João Victor <freitasjoaovictor49@gmail.com>",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "sls offline"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "html-to-text": "^4.0.0",
+    "request": "^2.88.0",
+    "serverless": "^2.67.0",
+    "serverless-http": "^2.7.0",
+    "serverless-offline": "^8.3.1",
+    "serverless-webpack": "^5.6.0",
+    "webpack": "^5.64.4"
+  }
+}
